@@ -12,7 +12,7 @@ This application provides advanced video analysis tools tailored for football an
 - [Key Findings](#key-findings)
 - [Data Sources](#data-sources)
 - [Features](#features)
-- [Installation](#installation💻)
+- [Installation💻](#installation💻)
 - [Setup and Execution](#setup-and-execution)
 - [Dependencies](#dependencies-🧩)
 - [Usage](#usage-🚀)
