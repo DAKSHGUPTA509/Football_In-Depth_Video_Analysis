@@ -17,7 +17,7 @@ This application provides advanced video analysis tools tailored for football an
 - [Dependencies](#dependencies)
 - [Usage](#usage)
 - [Contribution Guidelines](#contribution-guidelines)
-- [Troubleshooting](#troubleshooting)
+- [Troubleshooting](#troubleshooting🛠️)
 - [License](#license)
 - [Contact](#contact)
 
