@@ -1,5 +1,10 @@
 # ⚽ Football In-Depth Video Analysis 📊
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Status](https://img.shields.io/badge/Status-Active-success.svg)]()
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+
 This application provides advanced video analysis tools tailored for football analysts and developers. 👨‍💻 It enhances raw football footage, providing insights through automated processing and visualization. ⚙️ This allows for detailed examination of player movements, tactical formations, and key moments within a game. 🔍
 
 ## Table of Contents
@@ -7,7 +12,7 @@ This application provides advanced video analysis tools tailored for football an
 - [Key Findings](#key-findings)
 - [Data Sources](#data-sources)
 - [Features](#features)
-- [Installation](#installation-💻)
+- [Installation](#installation💻)
 - [Setup and Execution](#setup-and-execution)
 - [Dependencies](#dependencies-🧩)
 - [Usage](#usage-🚀)
@@ -93,7 +98,7 @@ This is the input video file pic before processing:
 This is the output video file pic after processing:
 ![After Processing](https://github.com/user-attachments/assets/f8cae508-d46c-4a93-b7c7-a827e90ff0b2)
 
-## Installation 💻
+## Installation💻
 
 1.  **Clone the repository:**
 > `git clone [repository_url]`
