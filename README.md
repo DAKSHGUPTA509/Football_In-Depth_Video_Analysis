@@ -21,7 +21,7 @@ This application provides advanced video analysis tools tailored for football an
 - [License](#license)
 - [Contact](#contact)
 
-## Directory Structure
+## Directory Structure📁
 
 <pre>
 └── daxgupta-football_in-depth_video_analysis/
@@ -70,7 +70,7 @@ This application provides advanced video analysis tools tailored for football an
 
 **This project automates football match analysis using computer vision. It reads video, detects and tracks players, balls, and referees via a pre-trained model `(models/best.pt)`, then generates annotated output video. The system also extracts player positions and calculates their speeds for each frame, providing a foundation for advanced tactical and performance insights. The goal is to streamline video review, saving time, and enhancing game understanding. It leverages Python, OpenCV, and a custom tracking system for efficient and accurate analysis.**
 
-## Key Findings
+## Key Findings🕵
 
 **Provide a summary of the key findings or insights derived from the video analysis.  This section should highlight the most important results that the application helps uncover. For example:**
 
