@@ -157,7 +157,7 @@ Model file is linked in `models/models.txt`. 🔗
 
 > Please follow the coding style and conventions used in the project.
 
-## Troubleshooting⚙️
+## Troubleshooting⚙
 
 *   **Issue:** "ModuleNotFoundError: No module named 'cv2'"
     **Solution:** Install OpenCV: `pip install opencv-python`
