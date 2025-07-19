@@ -78,7 +78,7 @@ This application provides advanced video analysis tools tailored for football an
   *   Quantifiable metrics for player speed, distance covered, and tactical efficiency.
   *   Identification of critical moments and patterns in the game.
 
-## Data Sources
+## Data Sources🗄
 
 **Describe the data sources used for the video analysis.  This should include the type of video footage, any external data sources used (e.g., player statistics), and how the data is preprocessed. For example:**
 
@@ -86,7 +86,7 @@ This application provides advanced video analysis tools tailored for football an
   *   Player statistics: `If applicable, describe the source of player statistics and how it's integrated.`
   *   Preprocessing steps: `Outline any preprocessing steps applied to the video or external data.`
 
-## Features
+## Features✨
 
 *   **Automated Player Tracking:** 🏃‍♂️ Identifies and tracks players throughout the video.
 *   **Tactical Formation Analysis:** 📐 Analyzes and visualizes team formations.
