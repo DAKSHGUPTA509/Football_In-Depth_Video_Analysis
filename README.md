@@ -3,13 +3,32 @@
 This application provides advanced video analysis tools tailored for football analysts and developers. 👨‍💻 It enhances raw football footage, providing insights through automated processing and visualization. ⚙️ This allows for detailed examination of player movements, tactical formations, and key moments within a game. 🔍
 
 ## Table of Contents
+- [Key Findings](#key-findings)
+- [Data Sources](#data-sources)
 - [Features](#features)
 - [Installation](#installation-💻)
+- [Setup and Execution](#setup-and-execution)
 - [Dependencies](#dependencies-🧩)
 - [Usage](#usage-🚀)
 - [Contribution Guidelines](#contribution-guidelines-🤝)
 - [Troubleshooting](#troubleshooting-🛠️)
 - [Directory Structure](#directory-structure)
+
+## Key Findings
+
+> Provide a summary of the key findings or insights derived from the video analysis.  This section should highlight the most important results that the application helps uncover. For example:
+>
+> *   Improved understanding of team formations and player positioning.
+> *   Quantifiable metrics for player speed, distance covered, and tactical efficiency.
+> *   Identification of critical moments and patterns in the game.
+
+## Data Sources
+
+> Describe the data sources used for the video analysis.  This should include the type of video footage, any external data sources used (e.g., player statistics), and how the data is preprocessed. For example:
+>
+> *   Input video footage: [Describe the source and characteristics of the video footage, e.g., resolution, frame rate, camera angles].
+> *   Player statistics: [If applicable, describe the source of player statistics and how it's integrated].
+> *   Preprocessing steps: [Outline any preprocessing steps applied to the video or external data].
 
 ## Features
 
@@ -28,7 +47,29 @@ This is the output video file pic after processing:
 ## Installation 💻
 
 1.  **Clone the repository:**
-> *   Python 3.7+ 🐍
+> `git clone [repository_url]`
+2.  **Navigate to the project directory:**
+> `cd daxgupta-football_in-depth_video_analysis`
+3.  **Install the required dependencies:**
+> `pip install -r requirements.txt` (if a requirements file is available) or install dependencies manually.
+
+## Setup and Execution
+
+> Provide detailed instructions on setting up the project and executing the main script. Include steps for configuring the environment and running the analysis. For example:
+>
+> 1.  **Environment Configuration:**
+>     *   Set up a virtual environment (recommended): `python -m venv venv`
+>     *   Activate the virtual environment: `source venv/bin/activate` (Linux/macOS) or `venv\Scripts\activate` (Windows)
+> 2.  **Configuration File:**
+>     *   Ensure the `config.ini` file is properly configured with the correct paths to the input video, output video, and model files.
+> 3.  **Model Download:**
+>     *   Download the model file from the link provided in `models/models.txt` and place it in the appropriate directory.
+> 4.  **Execution:**
+>     *   Run the main script with the necessary arguments: `python main.py --input_video [path_to_input_video] --output_video [path_to_output_video] --config [path_to_config_file]`
+
+## Dependencies 🧩
+
+*   Python 3.7+ 🐍
 *   OpenCV 📸
 *   TensorFlow or PyTorch (depending on the model) 🧠
 *   NumPy 🔢
@@ -40,14 +81,13 @@ Model file is linked in `models/models.txt`. 🔗
 
 ## Usage 🚀
 
-bash
-> python main.py --input_video [path_to_input_video] --output_video [path_to_output_video] --config [path_to_config_file]
->     *   `--input_video`: Path to the input video file. 📹
-    *   `--output_video`: Path to the output video file. 🎬
-    *   `--config`: Path to the configuration file (optional, defaults to `config.ini`). ⚙️
+*   `--input_video`: Path to the input video file. 📹
+*   `--output_video`: Path to the output video file. 🎬
+*   `--config`: Path to the configuration file (optional, defaults to `config.ini`). ⚙️
 
-        Example:
-> *   **Input:** The application primarily supports `.mp4` video files. Other common formats like `.mov` and `.avi` might work but are not guaranteed. 🎥
+    Example:
+
+*   **Input:** The application primarily supports `.mp4` video files. Other common formats like `.mov` and `.avi` might work but are not guaranteed. 🎥
 *   **Output:** The processed video is output as an `.avi` file by default. This can be configured in the `config.ini` file. 📤
 
 > Note that using other video formats might require installing additional codecs.
@@ -116,4 +156,4 @@ bash
     └── view_transformer/
         ├── __init__.py
         └── view_transformer.py
-</pre>
+   </pre>
