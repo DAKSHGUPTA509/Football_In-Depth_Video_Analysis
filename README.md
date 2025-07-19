@@ -14,10 +14,12 @@ This application provides advanced video analysis tools tailored for football an
 - [Features](#features)
 - [Installation](#installation)
 - [Setup and Execution](#setup-and-execution)
-- [Dependencies](#dependencies-🧩)
-- [Usage](#usage-🚀)
-- [Contribution Guidelines](#contribution-guidelines-🤝)
-- [Troubleshooting](#troubleshooting-🛠️)
+- [Dependencies](#dependencies)
+- [Usage](#usage)
+- [Contribution Guidelines](#contribution-guidelines)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+- [Contact](#contact)
 
 ## Directory Structure
 
@@ -121,7 +123,7 @@ This is the output video file pic after processing:
    4.  **Execution:**
         *   Run the main script with the necessary arguments: `python main.py --input_video [path_to_input_video] --output_video [path_to_output_video] --config [path_to_config_file]`
 
-## Dependencies 🧩
+## Dependencies🧩
 
 *   Python 3.7+ 🐍
 *   OpenCV 📸
@@ -133,7 +135,7 @@ This is the output video file pic after processing:
 
 Model file is linked in `models/models.txt`. 🔗
 
-## Usage 🚀
+## Usage🚀
 
 *   `--input_video`: Path to the input video file. 📹
 *   `--output_video`: Path to the output video file. 🎬
@@ -146,7 +148,7 @@ Model file is linked in `models/models.txt`. 🔗
 
 > Note that using other video formats might require installing additional codecs.
 
-## Contribution Guidelines 🤝
+## Contribution Guidelines🤝
 
 1.  Fork the repository. 🍴
 2.  Create a new branch for your feature or bug fix. 🌿
@@ -155,14 +157,17 @@ Model file is linked in `models/models.txt`. 🔗
 
 > Please follow the coding style and conventions used in the project.
 
-## Troubleshooting 🛠️
+## Troubleshooting🛠️
 
 *   **Issue:** "ModuleNotFoundError: No module named 'cv2'"
-
     **Solution:** Install OpenCV: `pip install opencv-python`
+    
 *   **Issue:** "Error: Model file not found"
-
     **Solution:** Ensure the model file is downloaded and the `model_path` in `config.ini` is correct.
+    
 *   **Issue:** "Video processing is slow"
-
     **Solution:** Try reducing the resolution of the input video or using a more powerful machine. Also, ensure that you are using GPU acceleration if available.
+
+## License🪪
+
+## Contact📞
